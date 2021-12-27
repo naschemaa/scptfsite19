@@ -1,5 +1,5 @@
 --PUT THIS IN WORKSPACE IF YOU WANT AUTO-REDIRECT
---PUT THIS IN A PART IF YOU WANT ONCLICK-REDIRECT (Don't forget to use a ClickDetector)
+--PUT THIS IN A PART IF YOU WANT ONTOUCH-REDIRECT (Don't forget to use a ClickDetector)
 function onTouched(hit)
    local player = game.Players:GetPlayerFromCharacter(hit.Parent)
    if player then
