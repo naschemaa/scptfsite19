@@ -1,4 +1,5 @@
 --PUT IN A PART WITH A Value who nammed "BadgeID". Put the id of the badge in "BadgeID".
+--TESTED ON ROBLOX STUDIO.
 function OnTouch(part)
 	if (part.Parent:FindFirstChild("Humanoid") ~= nil) then
 		local p = game.Players:GetPlayerFromCharacter(part.Parent)
